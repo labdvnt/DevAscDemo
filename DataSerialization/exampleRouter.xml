@@ -1,0 +1,29 @@
+<router>
+    <hostname>R1</hostname>
+    <interfaces>
+        <interface id="0" enabled="true">
+            <name>GigabitEthernet0/0</name>
+            <ip>192.168.1.254</ip>
+            <mask>255.255.255.0</mask>
+        </interface>
+        <interface id="1" enabled="true">
+            <name>GigabitEthernet0/1</name>
+            <ip>172.16.1.2</ip>
+            <mask>255.255.255.0</mask>
+        </interface>
+    </interfaces>
+    <routing>
+        <routes>
+            <route>
+                <destination>192.168.2.0</destination>
+                <mask>255.255.255.0</mask>
+                <gateway>192.168.1.253</gateway>
+            </route>
+            <route>
+                <destination>0.0.0.0</destination>
+                <mask>0.0.0.0</mask>
+                <gateway>201.1.113.54</gateway>
+            </route>
+        </routes>
+    </routing>
+</router>
