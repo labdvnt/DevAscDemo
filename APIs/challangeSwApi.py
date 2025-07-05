@@ -10,4 +10,8 @@ headers = {
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
-print(response.text)
+data = response.json()
+
+for person in data:
+    if person['name'] == 'Leia Organa':
+        print(json.dumps(person, indent=4))
