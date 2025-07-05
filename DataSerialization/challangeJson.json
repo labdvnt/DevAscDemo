@@ -1,0 +1,27 @@
+
+{
+    "arabalar": {
+        "araba": [
+            {
+                "marka": "Toyota",
+                "model": "Corolla",
+                "yil": 2020,
+                "ozellikler": {
+                    "renk": "Kırmızı",
+                    "motor": "1.6L",
+                    "vites": "Otomatik"
+                }
+            },
+            {
+                "marka": "Ford",
+                "model": "Focus",
+                "yil": 2019,
+                "ozellikler": {
+                    "renk": "Mavi",
+                    "motor": "1.5L",
+                    "vites": "Manuel"
+                }
+            }
+        ]
+    }
+}
